@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>SiteMoth updates</title>
+    <item>
+      <title>SiteMoth 1.1.0</title>
+      <pubDate>Sat, 24 Oct 2026 19:10:21 GMT</pubDate>
+      <enclosure url="https://github.com/erayturan/sitemoth-releases/releases/download/v1.1.0/SiteMoth-1.1.0-windows-x64-unsigned.exe" length="75623453" type="application/octet-stream" sparkle:version="1.1.0" sparkle:shortVersionString="1.1.0" sparkle:os="windows" sparkle:edSignature="95/bghn3hTS7dTdr45JCHA+BiXr2EfzWlyFQH6a0cQr1SkDG5Om1hrh0bZg3esOqEJjD0RmOX71yDa/nNcyCBw==" />
+    </item>
+  </channel>
+</rss>
