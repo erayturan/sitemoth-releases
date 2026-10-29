@@ -1,5 +1,34 @@
 # Sürüm geçmişi
 
+<!-- release:1.2.0 -->
+## 1.2.0 — 2026-10-29
+
+macOS ARM64 · Windows x64
+
+### Yenilikler ve düzeltmeler
+
+- macOS ARM64 / Windows x64: DNS kontrolleri tarama zaman aşımına uyar; IP hedeflerinde yalnız domainlere uygun kayıt sorguları atlanır ve yavaş çözümleyicilerin taramayı bekletmesi önlenir.
+
+- macOS ARM64 / Windows x64: AI istemcileri mevcut veya yeni domainler için izinli taramalar başlatabilir, izleyebilir ve iptal edebilir. İşler istemci bağlantısı kesildiğinde korunur ve uygulama penceresinden bağımsız çalışır.
+- macOS ARM64 / Windows x64: AI değerlendirmeleri Markdown olarak, revizyon geçmişi ve eski tarama/notlara kesin kaynak bağlantılarıyla kaydedilebilir; sonraki oturumlar bu bağlama yeniden erişebilir. Raporlar yerel JSON, Markdown, HTML veya CSV olarak dışa aktarılabilir.
+
+- macOS ARM64 / Windows x64: tarama raporlarına Markdown önizleme, revizyon geçmişi, kaynak bağlantıları ve Markdown indirme içeren AI notları bölümü eklendi; tarama ve not yazma izinleri salt okunur paylaşımdan ayrı yönetilir.
+
+- macOS ARM64 / Windows x64: AI istemcileri temizlenmiş modül/bulgu ayrıntılarını inceleyebilir, paylaşılan geçmişte arama yapabilir, eğilim ve portföy özetlerini okuyabilir ve kapsam sınırlarını gözeterek bulguları karşılaştırabilir. Kayıtlı raporlar MCP kaynakları ve hazır inceleme promptlarıyla erişilebilir.
+
+- macOS ARM64 / Windows x64: Claude Desktop eklentisinin yerleşik Node ortamındaki giriş noktası ve veri aktarımı düzeltildi; macOS kullanıcıları SiteMoth.app dosyasını doğrudan seçebilir.
+
+### Yükseltme ve dağıtım notları
+
+- macOS ARM64 paketleri Developer ID imzalı ve notarize edilmiştir. Mevcut dağıtım politikası kapsamında Windows x64 installer Authenticode bakımından imzasız kalır; güncelleme paketleri ayrıca imzayla doğrulanır.
+
+- Mevcut salt okunur paylaşım salt okunur kalır. AI connections bölümünde tarama/not yazma izinlerini ayrıca açın; yeni araçları keşfetmesi için AI istemcinizi yeniden bağlayın.
+- Notlar için geçmiş şeması yükseltilir. Bu adayı denemeden önce domain geçmişini dışa aktararak yedekleyin; eski uygulama sürümleri yükseltilmiş geçmişi açamaz.
+- Model erişimini seçtiğiniz AI istemcisi sağlar. Yalnız herkese açık ağlara izinli güvenlik taramaları HTTP şablonları kullanır; desteklenmeyen veya başarısız kontroller başarılı sonuç sayılmaz.
+
+[GitHub Release](https://github.com/erayturan/sitemoth-releases/releases/tag/v1.2.0)
+<!-- /release:1.2.0 -->
+
 <!-- release:1.1.0 -->
 ## 1.1.0 — 2026-10-24
 
