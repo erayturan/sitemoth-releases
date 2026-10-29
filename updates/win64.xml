@@ -3,9 +3,9 @@
   <channel>
     <title>SiteMoth updates</title>
     <item>
-      <title>SiteMoth 1.1.0</title>
-      <pubDate>Sat, 24 Oct 2026 19:10:21 GMT</pubDate>
-      <enclosure url="https://github.com/erayturan/sitemoth-releases/releases/download/v1.1.0/SiteMoth-1.1.0-windows-x64-unsigned.exe" length="75623453" type="application/octet-stream" sparkle:version="1.1.0" sparkle:shortVersionString="1.1.0" sparkle:os="windows" sparkle:edSignature="95/bghn3hTS7dTdr45JCHA+BiXr2EfzWlyFQH6a0cQr1SkDG5Om1hrh0bZg3esOqEJjD0RmOX71yDa/nNcyCBw==" />
+      <title>SiteMoth 1.2.0</title>
+      <pubDate>Thu, 29 Oct 2026 15:34:04 GMT</pubDate>
+      <enclosure url="https://github.com/erayturan/sitemoth-releases/releases/download/v1.2.0/SiteMoth-1.2.0-windows-x64-unsigned.exe" length="75936928" type="application/octet-stream" sparkle:version="1.2.0" sparkle:shortVersionString="1.2.0" sparkle:os="windows" sparkle:edSignature="S3PQTJI7MRp+hxP+x2B44VUsW7UnBqo+voax9HSMP9UDq8ze/STfjeui5mQ0w1oR7MbBoZDMN/WRHmVNMu8OBQ==" />
     </item>
   </channel>
 </rss>
