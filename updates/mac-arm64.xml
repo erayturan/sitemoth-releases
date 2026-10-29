@@ -3,9 +3,9 @@
   <channel>
     <title>SiteMoth updates</title>
     <item>
-      <title>SiteMoth 1.1.0</title>
-      <pubDate>Sat, 24 Oct 2026 19:10:21 GMT</pubDate>
-      <enclosure url="https://github.com/erayturan/sitemoth-releases/releases/download/v1.1.0/SiteMoth-1.1.0-mac-arm64.dmg" length="140863183" type="application/octet-stream" sparkle:version="1.1.0" sparkle:shortVersionString="1.1.0" sparkle:os="macos" sparkle:edSignature="EHFdUbEQtKcHd1TLPGUY26wkyls8qYix2wPlUIh++GzDfEdZID8XJ4bDL0lu8QP+HKpk+gJOy+dUVptGtVkXCw==" />
+      <title>SiteMoth 1.2.0</title>
+      <pubDate>Thu, 29 Oct 2026 15:34:03 GMT</pubDate>
+      <enclosure url="https://github.com/erayturan/sitemoth-releases/releases/download/v1.2.0/SiteMoth-1.2.0-mac-arm64.dmg" length="141306057" type="application/octet-stream" sparkle:version="1.2.0" sparkle:shortVersionString="1.2.0" sparkle:os="macos" sparkle:edSignature="F1iy7L0gMK7zULzhPh/lXk98eEVww+ehak2cxaNg07/ltIFS7MziZ1lDH7zZksmXE3ppf4eQ/vUiUOaIKFCCAQ==" />
       <sparkle:minimumSystemVersion>13.5</sparkle:minimumSystemVersion>
     </item>
   </channel>
