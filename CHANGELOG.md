@@ -1,5 +1,34 @@
 # Changelog
 
+<!-- release:1.2.0 -->
+## 1.2.0 — 2026-10-29
+
+macOS ARM64 · Windows x64
+
+### Added and fixed
+
+- macOS ARM64 / Windows x64: DNS checks respect the scan timeout and skip domain-only record lookups for IP targets, preventing slow resolver responses from stalling a scan.
+
+- macOS ARM64 / Windows x64: AI clients can start, track and cancel permitted scans for existing or new domains. Jobs persist across client disconnections and run independently of the app window.
+- macOS ARM64 / Windows x64: AI evaluations can be saved as Markdown with revision history and exact references to earlier scans and notes; later sessions can retrieve that context. Reports can be exported locally as JSON, Markdown, HTML or CSV.
+
+- macOS ARM64 / Windows x64: scan reports now include an AI notes panel with Markdown preview, revision history, source links and Markdown download; scanning and note-writing permissions are managed separately from read-only sharing.
+
+- macOS ARM64 / Windows x64: AI clients can inspect sanitized module and finding details, search shared history, view trends and portfolio summaries, and compare findings with coverage limits. Saved reports are available as MCP resources with guided review prompts.
+
+- macOS ARM64 / Windows x64: fixed the Claude Desktop extension entry point and stream relay for the built-in Node host; macOS users can select SiteMoth.app directly.
+
+### Upgrade and distribution notes
+
+- macOS ARM64 packages are Developer ID signed and notarized. The Windows x64 installer remains Authenticode-unsigned under the existing distribution policy; update packages are separately signature-verified.
+
+- Existing read-only sharing stays read-only. Enable scan and note-writing permissions explicitly in AI connections; reconnect your AI client to discover the new tools.
+- History gains a schema migration for notes. Back up exported domain history before testing this candidate; older app versions cannot open migrated history.
+- AI client model access is provided by your chosen client. Public-only security scans use HTTP templates; unsupported or failed checks are not passing results.
+
+[GitHub Release](https://github.com/erayturan/sitemoth-releases/releases/tag/v1.2.0)
+<!-- /release:1.2.0 -->
+
 <!-- release:1.1.0 -->
 ## 1.1.0 — 2026-10-24
 
