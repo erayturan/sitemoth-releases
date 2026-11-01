@@ -1,5 +1,25 @@
 # Changelog
 
+<!-- release:1.3.0 -->
+## 1.3.0 — 2026-11-01
+
+macOS ARM64 · Windows x64
+
+- Website (all platforms): Added actual interface previews, AI/MCP and report-workflow sections, a desktop illustration with a wallpaper and unobstructed app icon, client logos with balanced spacing and expanded FAQs in English and Turkish. Interface screenshots use example data.
+
+- macOS ARM64 / Windows x64: Moved application updates to the top of Settings and local runtime details to a separate dialog.
+
+- macOS ARM64 / Windows x64: Simplified AI connection setup with equal app selectors, one focused installation panel, and collapsible advanced options.
+
+- macOS ARM64 / Windows x64: Consolidated AI domain permissions into one table with read, scan and note controls per domain and a single save action.
+
+- macOS ARM64 / Windows x64: Added guided MCP setup for Cursor, VS Code / Copilot, Codex and Gemini CLI, plus connection guidance for ChatGPT and Gemini web.
+
+- macOS ARM64 / Windows x64: AI scans now appear in a collapsible home-screen card alongside pinned and recent domains, with report access and scan cancellation directly in the card.
+
+[GitHub Release](https://github.com/erayturan/sitemoth-releases/releases/tag/v1.3.0)
+<!-- /release:1.3.0 -->
+
 <!-- release:1.2.0 -->
 ## 1.2.0 — 2026-10-29
 
