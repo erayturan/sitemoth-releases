@@ -1,5 +1,25 @@
 # Sürüm geçmişi
 
+<!-- release:1.3.0 -->
+## 1.3.0 — 2026-11-01
+
+macOS ARM64 · Windows x64
+
+- Web sitesi (tüm platformlar): Gerçek arayüz önizlemeleri, AI/MCP ve rapor iş akışı bölümleri, duvar kâğıdı ve arka katmanı kaldırılmış uygulama ikonuyla masaüstü temsili, dengeli boşluklarla istemci logoları ve genişletilmiş SSS Türkçe/İngilizce olarak eklendi. Arayüz ekran görüntüleri örnek veri kullanır.
+
+- macOS ARM64 / Windows x64: Uygulama güncellemeleri Ayarlar ekranının en üstüne, yerel çalışma araçlarının durumu ayrı bir pencereye taşındı.
+
+- macOS ARM64 / Windows x64: AI bağlantı kurulumu, eşit uygulama seçimleri, tek kurulum paneli ve açılır gelişmiş seçeneklerle sadeleştirildi.
+
+- macOS ARM64 / Windows x64: AI domain izinleri tek tabloda birleştirildi; okuma, tarama ve not izinleri domain başına aynı satırdan yönetilir ve tek işlemle kaydedilir.
+
+- macOS ARM64 / Windows x64: Cursor, VS Code / Copilot, Codex ve Gemini CLI için yönlendirmeli MCP kurulumu; ChatGPT ve Gemini web için bağlantı açıklamaları eklendi.
+
+- macOS ARM64 / Windows x64: AI taramaları, ana ekranda sabitlenmiş ve son domainlerle birlikte açılıp kapanan bir kartta gösterilir; rapor açma ve tarama iptali doğrudan karttan yapılabilir.
+
+[GitHub Release](https://github.com/erayturan/sitemoth-releases/releases/tag/v1.3.0)
+<!-- /release:1.3.0 -->
+
 <!-- release:1.2.0 -->
 ## 1.2.0 — 2026-10-29
 
