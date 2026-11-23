@@ -1,5 +1,18 @@
 # Sürüm geçmişi
 
+<!-- release:1.4.0-macos -->
+## 1.4.0 — 2026-11-23
+
+macOS ARM64
+
+Apple Silicon işlemcili ve macOS 13.5 veya üzeri bir Mac gerektirir.
+
+- **macOS ARM64:** Uygulama adı arayüzde, raporlarda, AI bağlantılarında ve kurulum paketinde AuditMoth olarak güncellendi. Moth ikonu ve Apple bundle kimliği korundu.
+- **macOS ARM64:** Açık ve koyu temaların yazı logoları güncellendi.
+
+[GitHub Release](https://github.com/erayturan/sitemoth-releases/releases/tag/v1.4.0-macos)
+<!-- /release:1.4.0-macos -->
+
 <!-- release:1.3.0 -->
 ## 1.3.0 — 2026-11-01
 
